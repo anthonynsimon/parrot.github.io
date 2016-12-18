@@ -168,6 +168,7 @@ a {
     background: #ea5125;
     height: auto;
     padding: 30px 0;
+    overflow-x: hidden;
 }
 
 .exports-header {

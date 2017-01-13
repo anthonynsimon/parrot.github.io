@@ -200,20 +200,18 @@ p strong {
 .features .content {
     display: flex;
     flex-flow: row wrap;
-    flex-basis: 100%;
     justify-content: space-around;
-    height: 100%;
     align-items: center;
 }
 
 @media screen and (min-width: 768px) {
     .features .content {
-    width: 1200px;
+    max-width: 1200px;
     }
 }
 
 .features .item {
-    flex: 0 340px;
+    flex-basis: 340px;
     height: 110px;
     display: flex;
     flex-flow: row nowrap;
@@ -241,110 +239,6 @@ p strong {
 
 .features .item .description p {
     color: #fff;
-}
-
-
-/* EXPORTS */
-
-.exports {
-    background: #ea5125;
-    height: auto;
-    padding: 30px 0;
-    overflow-x: hidden;
-}
-
-.exports-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column wrap;
-    margin-bottom: 40px;
-}
-
-.exports .title {
-    text-align: center;
-    font-size: 2em;
-    align-self:center;
-    margin-bottom: 10px;
-    color: #fff;
-}
-
-.exports .subtitle {
-    text-align: center;
-    align-self:center;
-    color: #fff;
-}
-
-.exports .content {
-    padding: 0 50px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-}
-
-.exports .format-list {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.format-list .item {
-    flex: 1 0 140px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    height: 94px;
-}
-
-.format-list .item .icon {
-    align-self: center;
-    margin-right: 20px;
-}
-
-.format-list .item .description {
-    align-self: center;
-}
-
-.format-list .item .description p {
-    color: #fff;
-}
-
-.format-list .item .description p {
-    color: #fff;
-}
-
-
-/* ADDITIONAL INFO */
-
-.additional-info {
-    background: none;
-    height: 340px;
-    padding: 80px;
-    display: flex;
-}
-
-.additional-info-header {
-    align-self: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1 0 auto;
-    flex-flow: column wrap;
-    margin-bottom: 40px;
-}
-
-.additional-info .title {
-    text-align: center;
-    font-size: 2em;
-    align-self:center;
-    margin-bottom: 10px;
-}
-
-.additional-info .subtitle {
-    text-align: center;
-    align-self:center;
 }
 
 
